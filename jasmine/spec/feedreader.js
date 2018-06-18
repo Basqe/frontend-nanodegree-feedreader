@@ -77,9 +77,9 @@ $(function() {
             let body = document.querySelector('body');
             let burger = document.querySelector('.menu-icon-link');
             burger.click();
-            expect(body.className).toBe('');
+            expect(body.classList).not.toContain('menu-hidden');
             burger.click();
-            expect(body.className).toBe('menu-hidden');
+            expect(body.classList).toContain('menu-hidden');
         });
     });
 
