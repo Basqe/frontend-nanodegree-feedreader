@@ -1,3 +1,9 @@
+# How to run it?
+
+1. Clone the repository.
+2. Open up index.html.
+3. Check if Jasmine passes.
+
 # Testing suites
 
 1. Suite that checks if RSS feeds are defined, got a URL that isn't empty and have a defined name.
@@ -6,7 +12,8 @@
 4. Suite that checks if the feed has been updated.
 
 
-## How will I complete this project?
+
+### How will I complete this project? / Requirements of the project
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
